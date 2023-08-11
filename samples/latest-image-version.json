@@ -1,0 +1,37 @@
+{
+    "name": "[variables('virtualMachineName')]",
+    "type": "Microsoft.Compute/virtualMachines",
+    "apiVersion": "2018-06-01",
+    "location": "[resourceGroup().location]",
+
+    "dependsOn": [
+      "[concat('Microsoft.Network/networkInterfaces/', variables('labvmNetworkInterfaceName'))]"
+    ],
+    "properties": {
+      "hardwareProfile": {
+        "vmSize": "[variables('virtualMachineSize')]"
+      },
+
+      "storageProfile": {
+        "osDisk": {
+          "createOption": "FromImage",
+          "name": "[concat(variables('virtualMachineName'), '-osdisk')]",
+          "caching": "ReadWrite",
+          "managedDisk": {
+            "storageAccountType": "Standard_LRS"
+          },
+          "diskSizeGB": 127
+        },
+        "imageReference": {
+          "id": "/subscriptions/01jad-dakdn-d3832872-743843-ag3g/resourceGroups/contoso-rg/providers/Microsoft.Compute/galleries/contoso-compute-gallery/images/contoso-cloud-architect-lab/versions/latest"
+        }
+      },
+      "networkProfile": {
+        "networkInterfaces": [
+          {
+            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('labvmNetworkInterfaceName'))]"
+          }
+        ]
+      }
+    }
+  },

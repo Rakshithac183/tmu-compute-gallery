@@ -3,7 +3,7 @@ sidebar_position: 9
 slug: /LabDeveloper/CreatingVMImages
 ---
 
-# Creating VM Images
+# Creating the VM Images
 
 ## Overview
 

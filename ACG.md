@@ -56,7 +56,7 @@ Follow the below steps to get started:-
     
 ![](/img/LabDeveloper/ManageImage/acg-create-details-01.jpg)
 
-7. Post the validation is passed, verify the details in the **Review + create** tab and proceed with creating the resource by clicking **Create** button.
+7. Post the validation is passed, verify the details in the **Review + create** tab and proceed with creating the resource by clicking on **Create** button.
 
 > **Note:** It will take for around 30 seconds for Azure to create the Compute Gallery.
 

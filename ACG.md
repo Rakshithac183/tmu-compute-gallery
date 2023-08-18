@@ -105,7 +105,7 @@ Follow the below steps to get started:-
     - **OS type** ***(2)*****:**  Choose OS type Windows or Linux, if not auto populated.
 
     - **Publisher** ***(3)*****:** Provide the image Publisher name.
-    > **Note:** If you are capturing the image of a VM created from Azure Marketplace image, then the **Publisher, Offer & SKU** details will be auto populated for you. In case you want to find them, you can go to the respective VM page, select **Export template** in the VM blade and search for **imageReference**, under which you can find the image details. For non-Azure market image you can provide custom details.
+    > **Note:** If you are capturing the image of a VM created from Azure Marketplace image, then the **Publisher, Offer & SKU** details will be auto populated for you. In case you want to find them, you can go to the respective VM page, select **Export template** in the VM blade and search for **imageReference**, under which you can find the image details. For non-Azure Marketplace image you can provide custom details.
  
     - **Offer** ***(4)*****:**  Input the image Offer name.
 

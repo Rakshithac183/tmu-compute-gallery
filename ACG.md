@@ -83,7 +83,7 @@ Follow the below steps to get started:-
 
 ![](/img/LabDeveloper/ManageImage/vm-status.jpg)
 
-3. Once the VM is stopped, you can capture the new image using the **Capture** button available on the VM overview page.
+3. Once the VM is stopped, you can capture the VM image using the **Capture** button available on the VM **Overview** page.
 
 ![](/img/LabDeveloper/ManageImage/vm-capture.jpg)
 

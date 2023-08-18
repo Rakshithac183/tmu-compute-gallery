@@ -203,6 +203,6 @@ If you want your VM images to be replicated to additional region(s) or you want 
 
 ![](/img/LabDeveloper/ManageImage/region-status.jpg)
 
-8. You can now update the regions in CloudLabs ODL and Template and verify if the image replication was successful in the Azure backend by adding a new user deployment from any existing/new **On Demand Lab**
+8. Now, you need to update the regions in the CloudLabs ODL and Template and verify if the image replication was successful in the Azure backend by adding a new user deployment from any existing/new **On Demand Lab**
 
 If you require any support, please contact the CloudLabs team. 

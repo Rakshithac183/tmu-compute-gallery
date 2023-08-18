@@ -150,21 +150,18 @@ Select **Review + create** ***(7)*** to proceed further.
 
 ![](/img/LabDeveloper/ManageImage/createimg-copy-resource-id.jpg)
 
-3. In the ARM template, under  **imageReference**, provide the image **Resoruce ID** value for **id**.
+3. In the ARM template, under  **imageReference**, provide the image **Resource ID** value for **id**.
 
 ![](/img/LabDeveloper/ManageImage/createimg-vm-ref-arm.jpg)
 
-4. Add the updated ARM template in the CloudLabs template and provide the same region(s) where the image is replicated in both CloudLabs template and ODL.
+4. Add the updated ARM template in the CloudLabs Template and provide the same region(s) where the image is replicated in both CloudLabs Template and ODL.
 
 ![](/img/LabDeveloper/ManageImage/createimg-odl-regions.jpg)
 
 5. Finally, verify if the configurations are made correctly by adding a new user deployment from any existing/new **On Demand Lab**.
-
 
 You can connect to the VM and verify the changes once the deployment is completed.
 
 Please delete the Resource Group that was created to Capture a VM image after the changes have been confirmed (manually on Azure portal).
 
 If you require any support, please contact the CloudLabs team. 
-
-============================================

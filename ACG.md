@@ -162,8 +162,47 @@ Select **Review + create** ***(7)*** to proceed further.
 
 5. Finally, verify if the configurations are made correctly by adding a new user deployment from any existing/new **On Demand Lab**.
 
-You can connect to the VM and verify the changes once the deployment is completed.
+6. After the deployment is successful, you can connect to the VM and verify the changes. Also, please delete the Resource Group that was created to Capture a VM image after the changes have been confirmed (manually on Azure portal).
 
-Please delete the Resource Group that was created to Capture a VM image after the changes have been confirmed (manually on Azure portal).
+
+## Updating image replication
+
+If you want your VM images to be replicated to additional regions or you want to remove the image replication from a region, please follow the below steps.
+
+1. Navigate to [Azure Portal](https://portal.azure.com/).
+
+2. Select **Resource groups** under **Navigate**. 
+
+![](/img/LabDeveloper/ManageImage/region-rg.jpg)
+
+3. In the **Resource groups** page, select the **cloudlabs-mgmt** ***(1)*** resoruce group. 
+
+![](/img/LabDeveloper/ManageImage/region-clmgmt-rg.jpg)
+
+> **Note:** If you are not able to see the **cloudlabs-mgmt** resoruce group, then you might need to select the Subscription from the filter by selecting **Subscription equals** ***(2)*** and click on **Apply**. 
+
+4. Within the resource group, select the image version **(2.0.0 (icg/cyber-labvm/2.0.0))** ***(1)*** you want to update the replication for.
+
+![](/img/LabDeveloper/ManageImage/region-select-img-version.jpg)
+
+> **Note:** You can use the **Search bar** ***(2)*** to search for the specific image version.
+
+5. Upon navigating to the **VM image version** page, select **Update replication** ***(1)***. Following this, click on the **dropdown icon** ***(2)*** located under the **Target regions** column. From the list of regions provided, select a region in which you intend to replicate the image ***(3)***.
+
+![](/img/LabDeveloper/ManageImage/region-select-region.jpg)
+
+> **Note:** Repeat the Step 5 if you want to replicate the image to any additional regions.
+
+6. Next, click **Save** to update the replication.
+
+![](/img/LabDeveloper/ManageImage/region-save.jpg)
+
+> **Note:** It can take 5 minutes or more for an image to be replicated depending on the image size and the number regions replicated.
+
+7. Once the replication is completed, the entry in the **Replication status** column will be displayed as **Completed** ***(1)*** for the respective image. You can even delete the replicated image in a region by seleting the **Bin** ***(2)*** icon and then clicking on **Save**.
+
+![](/img/LabDeveloper/ManageImage/vm-status.jpg)
+
+8. You can now update the regions in CloudLabs ODL and Template and verify if the image replication was successful in the Azure backend by adding a new user deployment from any existing/new **On Demand Lab**
 
 If you require any support, please contact the CloudLabs team. 

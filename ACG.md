@@ -13,9 +13,11 @@ Follow the below steps to get started:-
 
 ## Prerequisites
 
-1. An Azure VM which is configured as per your needs.
+1. Access to required Azure tenant (If you do not have access to Azure - please reach out to CloudLabs team).
+   
+2. An Azure VM which is configured as per your needs.
 
-2. VM Image Reference details (Publisher, Offer, SKU).
+3. VM Image Reference details (Publisher, Offer, SKU).
 
 ## Create Azure Compute Gallery
 
@@ -44,7 +46,7 @@ Follow the below steps to get started:-
 
 6. Once within the **Create Azure compute gallery** wizard, provide the values for the properties as below:
 
-    - **Subscription** ***(1)*****:** Choose the subscription where you want your Compute Gallery to be deployed.
+    - **Subscription** ***(1)*****:** Choose the subscription where you want your Compute Gallery to be deployed. It is recommended to use the first Subscription in the series if you have more than one Subscription in an tenant.
 
     - **Resource group** ***(2)*****:**  Choose the resource group **cloudlabs-mgmt**, else create one if you do not have already.
 

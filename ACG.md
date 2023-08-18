@@ -199,7 +199,7 @@ If you want your VM images to be replicated to additional region(s) or you want 
 
 > **Note:** It can take 5 minutes or more for an image to be replicated depending on the image size and the number of regions replicated.
 
-7. Once the replication is completed, the entry in the **Replication status** column will be displayed as **Completed** ***(1)*** for the respective image. You can even delete the replicated image in a region by seleting the **Bin** ***(2)*** icon and then clicking on **Save**.
+7. Once the replication is completed, the entry in the **Replication status** column will be displayed as **Completed** ***(1)*** for the respective region. You can even delete the replicated image in a region by seleting the **Bin** ***(2)*** icon and then clicking on **Save**.
 
 ![](/img/LabDeveloper/ManageImage/region-status.jpg)
 

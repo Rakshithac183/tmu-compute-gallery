@@ -79,7 +79,7 @@ Follow the below steps to get started:-
 ![](/img/LabDeveloper/ManageImage/shutdown-config-vm.jpg)
 
 
-2. Now go back to **Azure portal** and check the status of the VM, you might need to wait for couple of minutes until the VM **Status** transitions to **Stopped (deallocated state)**.
+2. Now go back to **Azure portal** and check the status of the VM, you might need to wait for couple of minutes until the VM **Status** transitions to **Stopped (deallocated)**.
 
 ![](/img/LabDeveloper/ManageImage/vm-status.jpg)
 

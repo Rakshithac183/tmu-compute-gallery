@@ -119,7 +119,7 @@ After entering the above details, click on **OK** ***(6)*** to save the details.
 
     - **Version number** ***(1)*****:** Provide the version number. The VM image version number should follow Major(int).Minor(int).Patch(int) format. For example: 1.0.0, 1.2.2
 
-    - **End of life date** ***(2)*****:** Here you need to put an End of life date for image as well, say we can put after 2 years.
+    - **End of life date** ***(2)*****:** Here you can add an End of life date for image, such as one or more years. It is just informational and doesn't restrict the VM creation from the image.
 
     - **Default storage sku** ***(3)*****:** Choose **Standard HDD LRS** as it will optimize the storage cost.
 

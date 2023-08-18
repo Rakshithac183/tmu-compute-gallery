@@ -179,7 +179,7 @@ If you want your VM images to be replicated to additional region(s) or you want 
 
 ![](/img/LabDeveloper/ManageImage/region-clmgmt-rg.jpg)
 
-> **Note:** If you are not able to see the **cloudlabs-mgmt** resoruce group, then you might need to select the Subscription from the filter by selecting **Subscription equals** ***(2)*** and click on **Apply**. 
+> **Note:** If you are not able to see the **cloudlabs-mgmt** resoruce group, then you might need to select the respected Subscription from the filter by selecting **Subscription equals** ***(2)*** and click on **Apply**. 
 
 4. Within the resource group, select the image version **(2.0.0 (icg/cyber-labvm/2.0.0))** ***(1)*** you want to update the replication for.
 

@@ -201,7 +201,7 @@ If you want your VM images to be replicated to additional region(s) or you want 
 
 7. Once the replication is completed, the entry in the **Replication status** column will be displayed as **Completed** ***(1)*** for the respective image. You can even delete the replicated image in a region by seleting the **Bin** ***(2)*** icon and then clicking on **Save**.
 
-![](/img/LabDeveloper/ManageImage/vm-status.jpg)
+![](/img/LabDeveloper/ManageImage/region-status.jpg)
 
 8. You can now update the regions in CloudLabs ODL and Template and verify if the image replication was successful in the Azure backend by adding a new user deployment from any existing/new **On Demand Lab**
 

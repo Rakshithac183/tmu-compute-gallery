@@ -167,7 +167,7 @@ Select **Review + create** ***(7)*** to proceed further.
 
 ## Updating image replication
 
-If you want your VM images to be replicated to additional regions or you want to remove the image replication from a region, please follow the below steps.
+If you want your VM images to be replicated to additional region(s) or you want to remove the image replication from one or more region(s), please follow the below steps.
 
 1. Navigate to [Azure Portal](https://portal.azure.com/).
 

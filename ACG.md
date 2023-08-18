@@ -46,7 +46,7 @@ Follow the below steps to get started:-
 
 6. Once within the **Create Azure compute gallery** wizard, provide the values for the properties as below:
 
-    - **Subscription** ***(1)*****:** Choose the subscription where you want your Compute Gallery to be deployed. It is recommended to use the first Subscription in the series if you have more than one Subscription in an tenant.
+    - **Subscription** ***(1)*****:** Choose the subscription where you want your Compute Gallery to be deployed. It is recommended to use the first Subscription in the series if you have more than one Subscription in a tenant.
 
     - **Resource group** ***(2)*****:**  Choose the resource group **cloudlabs-mgmt**, else create one if you do not have already.
 

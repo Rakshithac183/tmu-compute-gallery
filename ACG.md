@@ -15,7 +15,7 @@ Follow the below steps to get started:-
 
 1. Access to required Azure tenant (If you do not have access to Azure - please reach out to CloudLabs team).
    
-2. An Azure VM which is configured as per your needs.
+2. An Azure VM which is customized as per your needs (Customized Azure VM means, pre-installing any applications or tools based on your requirements so that users will already have the tools pre-installed when they access the VM).
 
 3. VM Image Reference details (Publisher, Offer, SKU).
 

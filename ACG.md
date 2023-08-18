@@ -74,7 +74,7 @@ Follow the below steps to get started:-
 
 ## Capturing VM and Creating Image Definition
 
-1. Firstly, login into the VM and ensure there is no window left open inside it. Then, shut down the VM by choosing **Other[Planned]** ***(1)*** and then click **Continue** ***(2)***.
+1. Firstly, login into the VM which you have already configured and ensure there is no window left open inside it. Then, shut down the VM by choosing **Other[Planned]** ***(1)*** and then click **Continue** ***(2)***.
 
 ![](/img/LabDeveloper/ManageImage/shutdown-config-vm.jpg)
 

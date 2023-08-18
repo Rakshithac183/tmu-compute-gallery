@@ -54,7 +54,7 @@ Follow the below steps to get started:-
 
     After providing the above details, click **Review + create** ***(5)***. 
     
-![](/img/LabDeveloper/ManageImage/acg-create-details.jpg)
+![](/img/LabDeveloper/ManageImage/acg-create-details-01.jpg)
 
 7. Post the validation is passed, verify the details in the **Review + create** tab and proceed with creating the resource by clicking **Create** button.
 
